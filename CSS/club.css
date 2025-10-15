@@ -1,0 +1,461 @@
+* {
+  margin: 0%;
+  /* tirou a margem */
+  padding: 0%;
+  /* tirou o espaço interno */
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #0a0a31;
+  color: white;
+
+
+}
+
+header {
+  background-color: #252568;
+  padding: 15px 30px;
+  display: inline-block;
+  width: 100%;
+  border-radius: 14px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 40px;
+}
+
+nav a {
+  display: inline-block;
+  margin: 0 15px;
+  padding: 8px 12px;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #6ea8fe;
+  color: #000;
+}
+
+.btn {
+  background-color: #0b0524;
+  padding: 8px 15px;
+  border-radius: 6px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.btn:hover {
+  background-color: #9b7bff;
+  color: white;
+}
+
+.apresentação {
+  border-radius: 40px;
+  width: 900px;
+  height: 290px;
+  margin-left: 19%;
+  margin-right: 900px;
+  background-color: #8e5ebf;
+  background-color: #8e5ebf;
+  font-family: "Jomhuria", serif;
+  font-weight: 190;
+  font-style: normal;
+  font-size: 150%;
+  padding: 0px;
+  border: 3px solid #000000;
+
+}
+
+.apresentação h1 {
+  text-align: center;
+}
+
+.apresentação button {
+  width: 20%;
+  height: 50px;
+  background-color: #093c80;
+  border: none;
+  border-radius: 30px;
+  color: #f8f8f8;
+  font-weight: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 5px;
+
+
+
+}
+
+.apresentação p {
+  padding: 12px;
+}
+
+/* 🌠 Área dos planos */
+.planos {
+  display: flex;
+  /* coloca os blocos lado a lado */
+  justify-content: space-between;
+  /* espaço igual entre eles */
+  align-items: center;
+  /* alinha todos no meio */
+  margin: 50px;
+  /* espaço por fora */
+}
+
+/* Cada caixinha de plano */
+.plano {
+  background-color: #141454;
+  /* fundo azul escuro */
+  border: 3px solid #000000;
+  /* borda preta */
+  border-radius: 15px;
+  /* cantinhos arredondados */
+  width: 22%;
+  /* tamanho de cada caixa */
+  padding: 20px;
+  /* espaço interno */
+  text-align: center;
+  /* centraliza o texto */
+  color: #d9e8ff;
+  /* cor do texto */
+  font-family: Arial, sans-serif;
+  /* tipo de letra */
+}
+
+/* título dentro de cada plano */
+.plano h2 {
+  background-color: #2d4aff;
+  border-radius: 10px;
+  padding: 8px;
+  font-size: 20px;
+}
+
+/* textos dentro das caixinhas */
+.plano p {
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+/* preço do plano */
+.valor {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+/* botão dos planos */
+.botao {
+  background-color: #2d4aff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.botao:hover {
+  background-color: #4c91ff;
+}
+
+/* 🌌 Área dos cartões */
+.cartoes {
+  display: flex;
+  /* coloca os cartões lado a lado */
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+}
+
+/* cada cartão */
+.cartao {
+  background-color: #141454;
+  border: 3px solid #4c91ff;
+  border-radius: 15px;
+  width: 45%;
+  padding: 20px;
+  text-align: center;
+  color: #d9e8ff;
+}
+
+/* imagem dos cartões */
+.cartao img {
+  width: 400px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* nome do cartão */
+.cartao h2 {
+  font-size: 20px;
+  color: #b6e0ff;
+}
+
+/* subtítulo (tipo Mastercard) */
+.cartao h3 {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: normal;
+  color: #ccccff;
+}
+
+/* caixinhas com as informações dos pontos */
+.info {
+  background-color: #0b0b50;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 14px;
+}
+
+/* destaque da quantidade de pontos */
+.milhas {
+  color: #4c91ff;
+  font-weight: bold;
+}
+
+/* botão dos cartões */
+.botao {
+  background-color: #4c91ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 25px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.botao:hover {
+  background-color: #6db1ff;
+}
+
+.botao:active {
+  transform: scale(0.97);
+  /* muda o tamanho do botao quando clica */
+}
+
+/* 💬 Explicação sobre o USD */
+.explicacao {
+  background-color: #0b0b50;
+  color: #e0ecff;
+  border-radius: 15px;
+  padding: 30px;
+  margin: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.explicacao h2 {
+  color: #b6e0ff;
+  margin-bottom: 15px;
+}
+
+.assine-ja {
+  margin-left: 330px;
+}
+
+.assine-ja:hover {
+  background-color: #ccbbff;
+  color: #252568;
+}
+
+.assine-ja:active {
+  transform: scale(0.97);
+  /* muda o tamanho do botao quando clica */
+}
+
+footer {
+  background-color: #0a0a23;
+  /* azul escuro elegante */
+  color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+footer h2 {
+  color: #f2c94c;
+  /* amarelo dourado para destaque */
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+footer p,
+footer li,
+footer a {
+  color: #dcdcdc;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 20px;
+}
+
+footer ul li {
+  margin: 5px 0;
+}
+
+footer a:hover {
+  color: #f2c94c;
+  text-decoration: underline;
+}
+
+footer img {
+  vertical-align: middle;
+  margin: 10px;
+}
+
+footer .footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+footer hr {
+  border: none;
+  border-top: 1px solid #444;
+  margin: 30px 0;
+}
+
+footer .copy {
+  font-size: 13px;
+  color: #aaaaaa;
+}
+
+/* ícones App Store e Google Play */
+footer .apps img {
+  width: 130px;
+  margin: 10px;
+  transition: 0.3s;
+}
+
+footer .apps img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  width: 100px;
+  /* ajusta o tamanho da imagem completa */
+  height: auto;
+  transition: 0.9s;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+/* Responsivo para tablets (até 1024px) */
+@media (max-width: 1024px) {
+  .apresentação {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+    height: auto;
+    font-size: 120%;
+  }
+
+  .planos {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .plano {
+    width: 45%;
+  }
+
+  .cartoes {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .cartao {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .cartao img {
+    width: 100%;
+    height: auto;
+  }
+
+  .assine-ja {
+    margin: 20px auto;
+    display: block;
+  }
+
+  footer .footer-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    text-align: center;
+  }
+}
+
+/* Responsivo para celulares (até 600px) */
+@media (max-width: 600px) {
+  header {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .logo {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+    font-size: 16px;
+  }
+
+  .apresentação {
+    font-size: 100%;
+    padding: 10px;
+  }
+
+  .plano {
+    width: 100%;
+  }
+
+  .cartao {
+    width: 100%;
+  }
+
+  .cartao img {
+    width: 100%;
+    height: auto;
+  }
+
+  .planos,
+  .cartoes {
+    margin: 20px;
+  }
+
+  footer .footer-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .assine-ja {
+    width: 90%;
+    text-align: center;
+    margin: 20px auto;
+  }
+}

@@ -1,0 +1,512 @@
+body {
+    background-color: #0a0a31;
+
+
+}
+
+header {
+    background-color: #252568;
+    padding: 15px 30px;
+    display: inline-block;
+    width: 97%;
+    border-radius: 14px;
+}
+
+.logo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 8px 12px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #6ea8fe;
+    color: #000;
+}
+
+.btn {
+    background-color: #0b0524;
+    padding: 8px 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.btn:hover {
+    background-color: #9b7bff;
+    color: white;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+.caixa1 {
+    background-color: #8e5ebf;
+    border-radius: 15px;
+    width: 900px;
+    height: 360px;
+    margin-left: 280px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 16px;
+
+}
+
+.botão1 {
+    background-color: rgb(183, 95, 217);
+}
+
+.botão {
+    background-color: rgb(124, 171, 246);
+}
+
+.hoteis {
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.container {
+    margin-left: 7%;
+}
+
+.caixa-copa {
+    background-color: aliceblue;
+    border-radius: 12px;
+    width: 385px;
+    height: 550px;
+    margin-right: 40px;
+    padding: 16px;
+    padding-left: 1px;
+    padding-top: 2px;
+    display: inline-block;
+
+
+}
+
+.caixa-copa img {
+    width: 400px;
+    height: 270px;
+}
+
+.caixa-copa:hover {
+    background-color: #a5bef4;
+}
+
+.caixa-noro {
+
+    background-color: aliceblue;
+    border-radius: 12px;
+    width: 385px;
+    height: 550px;
+    margin-right: 40px;
+    padding: 16px;
+    padding-left: 1px;
+    padding-top: 2px;
+    display: inline-block;
+
+
+}
+
+.caixa-noro img {
+    width: 400px;
+    height: 270px;
+}
+
+.caixa-noro:hover {
+    background-color: #a5bef4;
+}
+
+.caixa-castelo {
+    background-color: aliceblue;
+    border-radius: 12px;
+    width: 385px;
+    height: 550px;
+    margin-right: 40px;
+    padding: 16px;
+    padding-left: 1px;
+    padding-top: 2px;
+    display: inline-block;
+}
+
+.caixa-castelo img {
+    width: 400px;
+    height: 270px;
+}
+
+.caixa-castelo:hover {
+    background-color: #a5bef4;
+}
+
+.caixa-mara {
+    background-color: aliceblue;
+    border-radius: 12px;
+    width: 385px;
+    height: 550px;
+    margin-right: 40px;
+    margin-top: 30px;
+    padding: 16px;
+    padding-left: 1px;
+    padding-top: 2px;
+    display: inline-block;
+}
+
+.caixa-mara img {
+    width: 400px;
+    height: 270px;
+}
+
+.caixa-mara:hover {
+    background-color: #a5bef4;
+}
+
+.caixa-japa {
+    background-color: aliceblue;
+    border-radius: 12px;
+    width: 385px;
+    height: 550px;
+    margin-right: 40px;
+    margin-top: 30px;
+    padding: 16px;
+    padding-left: 1px;
+    padding-top: 2px;
+    display: inline-block;
+}
+
+.caixa-japa img {
+    width: 400px;
+    height: 270px;
+}
+
+.caixa-japa:hover {
+    background-color: #a5bef4;
+}
+
+.caixa-ita {
+    background-color: aliceblue;
+    border-radius: 12px;
+    width: 385px;
+    height: 550px;
+    margin-right: 40px;
+    margin-top: 30px;
+    padding: 16px;
+    padding-left: 1px;
+    padding-top: 2px;
+    display: inline-block;
+}
+
+.caixa-ita img {
+    width: 400px;
+    height: 270px;
+}
+
+.caixa-ita:hover {
+    background-color: #a5bef4;
+}
+
+.caixa-ny {
+    background-color: aliceblue;
+    border-radius: 12px;
+    width: 385px;
+    height: 550px;
+    margin-right: 40px;
+    margin-top: 30px;
+    padding: 16px;
+    padding-left: 1px;
+    padding-top: 2px;
+    display: inline-block;
+}
+
+.caixa-ny img {
+    width: 400px;
+    height: 270px;
+}
+
+.caixa-ny:hover {
+    background-color: #a5bef4;
+}
+
+.caixa-madri {
+    background-color: aliceblue;
+    border-radius: 12px;
+    width: 385px;
+    height: 550px;
+    margin-right: 40px;
+    margin-top: 30px;
+    padding: 16px;
+    padding-left: 1px;
+    padding-top: 2px;
+    display: inline-block;
+}
+
+.caixa-madri img {
+    width: 400px;
+    height: 270px;
+}
+
+.caixa-madri:hover {
+    background-color: #a5bef4;
+}
+
+.caixa-suiça {
+    background-color: aliceblue;
+    border-radius: 12px;
+    width: 385px;
+    height: 550px;
+    margin-right: 40px;
+    margin-top: 30px;
+    padding: 16px;
+    padding-left: 1px;
+    padding-top: 2px;
+    display: inline-block;
+}
+
+.caixa-suiça img {
+    width: 400px;
+    height: 270px;
+}
+
+.caixa-suiça:hover {
+    background-color: #a5bef4;
+}
+
+
+/*deixar a borda da imagem arredondada⬇️*/
+.img {
+    border-radius: 12px;
+}
+
+.azul {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(10, 74, 135);
+    padding-left: 25px;
+}
+
+.tefe {
+    padding-left: 25px;
+}
+
+.puma {
+    padding-left: 25px;
+}
+
+.polar {
+    font-size: 30px;
+}
+
+footer {
+    background-color: #0a0a23;
+    /* azul escuro elegante */
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+footer h2 {
+    color: #f2c94c;
+    /* amarelo dourado para destaque */
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+footer p,
+footer li,
+footer a {
+    color: #dcdcdc;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto 20px;
+}
+
+footer ul li {
+    margin: 5px 0;
+}
+
+footer a:hover {
+    color: #f2c94c;
+    text-decoration: underline;
+}
+
+footer img {
+    vertical-align: middle;
+    margin: 10px;
+}
+
+footer .footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+footer hr {
+    border: none;
+    border-top: 1px solid #444;
+    margin: 30px 0;
+}
+
+footer .copy {
+    font-size: 13px;
+    color: #aaaaaa;
+}
+
+/* ícones App Store e Google Play */
+footer .apps img {
+    width: 130px;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+footer .apps img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+    width: 100px;
+    /* ajusta o tamanho da imagem completa */
+    height: auto;
+    transition: 0.9s;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+/* Telas até 1024px (tablets e notebooks pequenos) */
+@media (max-width: 1024px) {
+  .caixa1 {
+    width: 90%;
+    margin: 40px auto;
+    height: auto;
+  }
+
+  .container {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .caixa-copa,
+  .caixa-noro,
+  .caixa-castelo,
+  .caixa-mara,
+  .caixa-japa,
+  .caixa-ita,
+  .caixa-ny,
+  .caixa-madri,
+  .caixa-suiça {
+    width: 45%;
+    margin: 20px auto;
+    display: inline-block;
+    height: auto;
+  }
+
+  .caixa-copa img,
+  .caixa-noro img,
+  .caixa-castelo img,
+  .caixa-mara img,
+  .caixa-japa img,
+  .caixa-ita img,
+  .caixa-ny img,
+  .caixa-madri img,
+  .caixa-suiça img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+
+  footer .footer-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    text-align: center;
+  }
+}
+
+/* Telas até 600px (celulares) */
+@media (max-width: 600px) {
+  header {
+    text-align: center;
+    padding: 15px;
+  }
+
+  .logo {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+    font-size: 16px;
+  }
+
+  .caixa1 {
+    width: 95%;
+    margin: 30px auto;
+    padding: 15px;
+  }
+
+  .caixa-copa,
+  .caixa-noro,
+  .caixa-castelo,
+  .caixa-mara,
+  .caixa-japa,
+  .caixa-ita,
+  .caixa-ny,
+  .caixa-madri,
+  .caixa-suiça {
+    width: 90%;
+    margin: 15px auto;
+    display: block;
+    height: auto;
+  }
+
+  .caixa-copa img,
+  .caixa-noro img,
+  .caixa-castelo img,
+  .caixa-mara img,
+  .caixa-japa img,
+  .caixa-ita img,
+  .caixa-ny img,
+  .caixa-madri img,
+  .caixa-suiça img {
+    width: 100%;
+    height: auto;
+  }
+
+  .hoteis {
+    font-size: 24px;
+  }
+
+  footer .footer-container {
+    grid-template-columns: 1fr;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  footer img {
+    margin: 10px auto;
+  }
+}

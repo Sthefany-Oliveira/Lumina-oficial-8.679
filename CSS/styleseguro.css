@@ -1,0 +1,333 @@
+ body {
+     margin: 10;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     background-color: #0a0a31;
+     color: white;
+ }
+
+ header {
+     background-color: #252568;
+     padding: 15px 30px;
+     display: inline-block;
+     width: 97%;
+     border-radius: 14px;
+ }
+
+ .img {
+     border-radius: 12px;
+ }
+
+ .logo {
+     font-size: 20px;
+     font-weight: bold;
+     display: inline-block;
+     margin-right: 40px;
+ }
+
+ nav a {
+     display: inline-block;
+     margin: 0 15px;
+     padding: 8px 12px;
+     color: white;
+     text-decoration: none;
+     border-radius: 6px;
+     font-size: 14px;
+     font-weight: bold;
+ }
+
+ nav a:hover {
+     background-color: #6ea8fe;
+     color: #000;
+ }
+
+ .btn {
+     background-color: #0b0524;
+     padding: 8px 15px;
+     border-radius: 6px;
+     font-weight: bold;
+     margin-left: 20px;
+ }
+
+ .btn:hover {
+     background-color: #9b7bff;
+     color: white;
+ }
+
+
+
+ .tituloseguro {
+     text-align: center;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+
+ }
+
+ .seguro {
+     font-size: 20px;
+     padding: 20px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ .listando {
+     border-radius: 10px;
+     width: 1350px;
+     height: 200px;
+     padding-right: 15px;
+     padding-top: 15px;
+     margin-left: 60px;
+
+     background-color: #252568;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: 200;
+     font-style: normal;
+     font-size: 130%;
+
+ }
+
+ .listand {
+     border-radius: 10px;
+     width: 1340px;
+     height: 350px;
+     padding-right: 15px;
+     padding-top: 15px;
+     padding-left: 15px;
+     margin-left: 60px;
+     background-color: #252568;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: 200;
+     font-style: normal;
+
+ }
+
+ .container {
+     display: flex;
+     gap: 25px;
+     margin-left: 10%;
+ }
+
+ #caixas-medico {
+     background-color: #fff;
+     color: #000;
+     border-radius: 12px;
+     width: 20%;
+     height: 550px;
+     text-align: center;
+     align-content: center;
+     display: inline-block;
+ }
+
+ #caixas-medico img {
+     width: 90%;
+     height: 50%;
+ }
+
+ #caixas-bagagem {
+     background-color: #fff;
+     color: #000;
+     border-radius: 12px;
+     width: 20%;
+     height: 550px;
+     text-align: center;
+     align-content: center;
+     display: inline-block;
+ }
+
+ #caixas-bagagem img {
+     width: 90%;
+     height: 50%;
+ }
+
+ #caixas-seguros {
+     background-color: #fff;
+     color: #000;
+     border-radius: 12px;
+     width: 20%;
+     height: 550px;
+     text-align: center;
+     align-content: center;
+     display: inline-block;
+ }
+
+ #caixas-seguros img {
+     width: 90%;
+     height: 50%;
+ }
+
+ #caixas-celular {
+     background-color: #fff;
+     color: #000;
+     border-radius: 12px;
+     width: 20%;
+     height: 550px;
+     text-align: center;
+     align-content: center;
+     display: inline-block;
+ }
+
+ #caixas-celular img {
+     width: 90%;
+     height: 50%;
+ }
+
+ footer {
+     background-color: #0a0a23;
+     /* azul escuro elegante */
+     color: #ffffff;
+     padding: 40px 20px;
+     text-align: center;
+     font-family: Arial, sans-serif;
+ }
+
+ footer h2 {
+     color: #f2c94c;
+     /* amarelo dourado para destaque */
+     margin-top: 25px;
+     margin-bottom: 10px;
+     font-size: 20px;
+ }
+
+ footer p,
+ footer li,
+ footer a {
+     color: #dcdcdc;
+     font-size: 15px;
+     text-decoration: none;
+ }
+
+ footer ul {
+     list-style: none;
+     padding: 0;
+     margin: 0 auto 20px;
+ }
+
+ footer ul li {
+     margin: 5px 0;
+ }
+
+ footer a:hover {
+     color: #f2c94c;
+     text-decoration: underline;
+ }
+
+ footer img {
+     vertical-align: middle;
+     margin: 10px;
+ }
+
+ footer .footer-container {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+     gap: 30px;
+     max-width: 1000px;
+     margin: 0 auto;
+     text-align: left;
+ }
+
+ footer hr {
+     border: none;
+     border-top: 1px solid #444;
+     margin: 30px 0;
+ }
+
+ footer .copy {
+     font-size: 13px;
+     color: #aaaaaa;
+ }
+
+ /* ícones App Store e Google Play */
+ footer .apps img {
+     width: 130px;
+     margin: 10px;
+     transition: 0.3s;
+ }
+
+ footer .apps img:hover {
+     transform: scale(1.05);
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+     width: 100px;
+     /* ajusta o tamanho da imagem completa */
+     height: auto;
+     transition: 0.9s;
+     border-radius: 10px;
+     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+     cursor: pointer;
+ }
+
+ /* ----------- RESPONSIVO ----------- */
+
+/* Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+  header {
+    width: 95%;
+    padding: 15px 20px;
+  }
+
+  .listando, .listand {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container {
+    flex-wrap: wrap; /* para as caixas quebrarem linha */
+    justify-content: center;
+    margin-left: 0;
+    gap: 20px;
+  }
+
+  #caixas-medico, #caixas-bagagem, #caixas-seguros, #caixas-celular {
+    width: 45%; /* duas caixas por linha */
+    height: auto;
+  }
+
+  nav a {
+    padding: 8px 10px;
+    margin: 0 10px;
+    font-size: 13px;
+  }
+}
+
+/* Celulares (max-width: 600px) */
+@media (max-width: 600px) {
+  header {
+    width: 100%;
+    padding: 10px 10px;
+  }
+
+  .logo {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  nav a {
+    display: block; /* um abaixo do outro */
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .btn {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .listando, .listand {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container {
+    flex-direction: column;
+    margin-left: 0;
+    gap: 15px;
+  }
+
+  #caixas-medico, #caixas-bagagem, #caixas-seguros, #caixas-celular {
+    width: 90%; /* uma caixa por linha */
+    height: auto;
+  }
+}

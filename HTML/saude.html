@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de Saúde - Agência Sirius Concorde</title>
+    <link rel="stylesheet" href="../CSS/stylesaude.css">
+</head>
+
+<body>
+
+    <form action="#" method="post">
+
+         <h1>Agência Sirius Concorde</h1>
+    <h2>Formulário de Saúde do Passageiro</h2>
+
+    <p class="Objetivo"><strong>Objetivo:</strong> Coletar informações médicas importantes para garantir a segurança e o bem-estar dos
+        passageiros durante a viagem. Todas as informações são confidenciais e utilizadas apenas pela equipe médica da
+        agência.</p>
+
+
+        <h3>1. Dados Pessoais</h3>
+
+        <label>Nome completo:</label><br>
+        <input type="text" name="nome" required><br><br>
+
+        <label>Data de nascimento:</label><br>
+        <input type="date" name="nascimento" required><br><br>
+
+        <label>CPF:</label><br>
+        <input type="text" name="cpf"><br><br>
+
+        <label>Telefone de contato:</label><br>
+        <input type="tel" name="telefone"><br><br>
+
+        <label>Contato de emergência:</label><br>
+        <input type="text" name="contato_emergencia"><br><br>
+
+        <label>Parentesco:</label><br>
+        <input type="text" name="parentesco"><br><br>
+
+        <label>Telefone do contato de emergência:</label><br>
+        <input type="tel" name="telefone_emergencia"><br><br>
+
+        <h3>2. Informações Médicas</h3>
+
+        <label>Possui algum problema de saúde?</label><br>
+        <input type="radio" name="problema_saude" value="Sim"> Sim
+        <input type="radio" name="problema_saude" value="Não"> Não<br>
+        <textarea name="descricao_problema" rows="3" cols="40" placeholder="Se sim, descreva..."></textarea><br><br>
+
+        <label>Faz uso contínuo de medicamentos?</label><br>
+        <input type="radio" name="medicamentos" value="Sim"> Sim
+        <input type="radio" name="medicamentos" value="Não"> Não<br>
+        <textarea name="descricao_medicamentos" rows="3" cols="40" placeholder="Quais?"></textarea><br><br>
+
+        <label>Possui alguma alergia (alimentar, medicamentosa, etc.)?</label><br>
+        <input type="radio" name="alergia" value="Sim"> Sim
+        <input type="radio" name="alergia" value="Não"> Não<br>
+        <textarea name="descricao_alergia" rows="3" cols="40" placeholder="Especifique..."></textarea><br><br>
+
+        <label>Já realizou alguma cirurgia importante?</label><br>
+        <input type="radio" name="cirurgia" value="Sim"> Sim
+        <input type="radio" name="cirurgia" value="Não"> Não<br>
+        <textarea name="descricao_cirurgia" rows="3" cols="40" placeholder="Qual e quando?"></textarea><br><br>
+
+        <label>Tem restrições alimentares?</label><br>
+        <input type="radio" name="restricao_alimentar" value="Sim"> Sim
+        <input type="radio" name="restricao_alimentar" value="Não"> Não<br>
+        <textarea name="descricao_restricao" rows="3" cols="40" placeholder="Quais?"></textarea><br><br>
+
+        <h3>3. Condições Específicas</h3>
+
+        <label>Possui mobilidade reduzida ou alguma necessidade especial?</label><br>
+        <input type="radio" name="necessidade_especial" value="Sim"> Sim
+        <input type="radio" name="necessidade_especial" value="Não"> Não<br>
+        <textarea name="descricao_necessidade" rows="3" cols="40" placeholder="Descreva..."></textarea><br><br>
+
+        <label>Está gestante?</label><br>
+        <input type="radio" name="gestante" value="Sim"> Sim
+        <input type="radio" name="gestante" value="Não"> Não
+        <input type="radio" name="gestante" value="Não se aplica"> Não se aplica<br><br>
+
+        <label>Autorizo o uso dessas informações pela equipe médica da Agência Sirius Concorde em caso de
+            emergência:</label><br>
+        <input type="checkbox" name="autorizacao" required> Sim, autorizo<br><br>
+
+        <h3>4. Assinatura</h3>
+
+        <label>Assinatura do passageiro (digite seu nome completo):</label><br>
+        <input type="text" name="assinatura" required><br><br>
+
+        <label>Data:</label><br>
+        <input type="date" name="data_assinatura" required><br><br>
+
+        <input type="submit" value="Enviar Formulário">
+
+    </form>
+    
+
+</body>
+
+</html>

@@ -1,0 +1,628 @@
+ body {
+   margin: 10;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   background-color: #0a0a31;
+   color: white;
+ }
+
+ header {
+   background-color: #252568;
+   padding: 15px 30px;
+   display: inline-block;
+   width: 95%;
+   border-radius: 14px;
+ }
+
+ .logo {
+   font-size: 20px;
+   font-weight: bold;
+   display: inline-block;
+   margin-right: 40px;
+   margin: 0;
+ }
+
+ nav a {
+   display: inline-block;
+   margin: 0 15px;
+   padding: 8px 12px;
+   color: white;
+   text-decoration: none;
+   border-radius: 6px;
+   font-size: 14px;
+   font-weight: bold;
+ }
+
+ nav a:hover {
+   background-color: #6ea8fe;
+   color: #000;
+ }
+
+ .btn {
+   background-color: #0b0524;
+   padding: 8px 15px;
+   border-radius: 6px;
+   font-weight: bold;
+   margin-left: 20px;
+ }
+
+ .btn:hover {
+   background-color: #9b7bff;
+   color: white;
+ }
+
+ .banner {
+   border-radius: 40px;
+   width: 1100px;
+   height: 300px;
+   margin-left: 200px;
+   margin-right: 1000px;
+   background-color: #8e5ebf;
+   font-family: "Jomhuria", serif;
+   font-weight: 200;
+   font-size: 150%;
+   padding: 5px;
+   text-align: center;
+   margin-top: 10px;
+ }
+
+
+ .puma {
+   color: #000000;
+ }
+
+ .preço-oni {
+   color: white;
+ }
+
+ .img {
+   border-radius: 12px;
+ }
+
+ .container {
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+   gap: 40px;
+   margin-top: 50px;
+ }
+
+ .caixa1 {
+   border-radius: 16px;
+   width: 400px;
+   height: 500px;
+   padding: 15px;
+   background-color: #31378d;
+   color: aliceblue;
+ }
+
+ .bus-info {
+   background-color: #31378d;
+   color: aliceblue;
+   border-radius: 16px;
+   width: 1200px;
+   height: 500px;
+   padding: 20px;
+ }
+
+ /* configuração da caixa do onibus vip */
+ .container-vip {
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+   gap: 40px;
+   margin-top: 50px;
+ }
+
+ /* configuração do onibus vip */
+ .bus-vip {
+   background-color: #31378d;
+   color: aliceblue;
+   border-radius: 16px;
+   width: 500px;
+   height: 400px;
+   padding: 20px;
+ }
+
+ p {
+   font-size: 20px;
+
+ }
+
+ .pesquisar {
+   background-color: #1d427e;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   padding: 10px 25px;
+   margin-top: 10px;
+   cursor: pointer;
+   font-weight: bold;
+ }
+
+ .pesquisar:hover {
+   background-color: #b99cd8;
+   color: #000;
+ }
+
+ .pesquisar:active {
+   transform: scale(0.97);
+   /* muda o tamanho do botao quando clica */
+ }
+
+ .destino {
+   text-align: center;
+ }
+
+ .Passagens {
+   margin-left: 12%;
+ }
+
+ /* configuração das caixas */
+ .caixa-belo {
+   background-color: #fff;
+   color: #000;
+   border-radius: 12px;
+   width: 335px;
+   height: 550px;
+   margin-right: 40px;
+   padding: 16px;
+   padding-left: 1px;
+   padding-top: 2px;
+   text-align: center;
+   display: inline-block;
+   margin-bottom: 10px;
+ }
+
+ /* Quando o mouse passa em cima */
+ .caixa-belo:hover {
+   background-color: #a5bef4;
+   color: #000;
+ }
+
+ /* configuração das caixas */
+ .caixa-forta {
+   background-color: #fff;
+   color: #000;
+   border-radius: 12px;
+   width: 335px;
+   height: 550px;
+   margin-right: 40px;
+   padding: 16px;
+   padding-left: 1px;
+   padding-top: 2px;
+   text-align: center;
+   display: inline-block;
+ }
+
+ /* Quando o mouse passa em cima */
+ .caixa-forta:hover {
+   background-color: #a5bef4;
+   color: #000;
+ }
+
+ /* configuração das caixas */
+ .caixa-maceio {
+   background-color: #fff;
+   color: #000;
+   border-radius: 12px;
+   width: 335px;
+   height: 550px;
+   margin-right: 40px;
+   padding: 16px;
+   padding-left: 1px;
+   padding-top: 2px;
+   text-align: center;
+   display: inline-block;
+ }
+
+ /* Quando o mouse passa em cima */
+ .caixa-maceio:hover {
+   background-color: #a5bef4;
+   color: #000;
+ }
+
+ /* configuração das caixas */
+ .caixa-recife {
+   background-color: #fff;
+   color: #000;
+   border-radius: 12px;
+   width: 335px;
+   height: 550px;
+   margin-right: 40px;
+   padding: 16px;
+   padding-left: 1px;
+   padding-top: 10px;
+   margin-bottom: 10px;
+   text-align: center;
+   display: inline-block;
+ }
+
+ /* Quando o mouse passa em cima */
+ .caixa-recife:hover {
+   background-color: #a5bef4;
+   color: #000;
+ }
+
+ /* configuração das caixas */
+ .caixa-rio {
+   background-color: #fff;
+   color: #000;
+   border-radius: 12px;
+   width: 335px;
+   height: 550px;
+   margin-right: 40px;
+   padding: 16px;
+   padding-left: 1px;
+   padding-top: 10px;
+   margin-bottom: 10px;
+   text-align: center;
+   display: inline-block;
+ }
+
+ /* Quando o mouse passa em cima */
+ .caixa-rio:hover {
+   background-color: #a5bef4;
+   color: #000;
+ }
+
+ /* configuração das caixas */
+ .caixa-sao {
+   background-color: #fff;
+   color: #000;
+   border-radius: 12px;
+   width: 335px;
+   height: 550px;
+   margin-right: 40px;
+   padding: 16px;
+   padding-left: 1px;
+   padding-top: 10px;
+   margin-bottom: 10px;
+   text-align: center;
+   display: inline-block;
+ }
+
+ /* Quando o mouse passa em cima */
+ .caixa-sao:hover {
+   background-color: #a5bef4;
+   color: #000;
+ }
+
+ /* configuração das caixas */
+ .caixa-curi {
+   background-color: #fff;
+   color: #000;
+   border-radius: 12px;
+   width: 335px;
+   height: 550px;
+   margin-right: 40px;
+   padding: 16px;
+   padding-left: 1px;
+   padding-top: 10px;
+   margin-bottom: 10px;
+   text-align: center;
+   display: inline-block;
+ }
+
+ /* Quando o mouse passa em cima */
+ .caixa-curi:hover {
+   background-color: #a5bef4;
+   color: #000;
+ }
+
+ /* configuração das caixas */
+ .caixa-am {
+   background-color: #fff;
+   color: #000;
+   border-radius: 12px;
+   width: 335px;
+   height: 550px;
+   margin-right: 40px;
+   padding: 16px;
+   padding-left: 1px;
+   padding-top: 10px;
+   margin-bottom: 10px;
+   text-align: center;
+   display: inline-block;
+ }
+
+ /* Quando o mouse passa em cima */
+ .caixa-am:hover {
+   background-color: #a5bef4;
+   color: #000;
+ }
+
+ /* configuração das caixas */
+ .caixa-roraima {
+   background-color: #fff;
+   color: #000;
+   border-radius: 12px;
+   width: 335px;
+   height: 550px;
+   margin-right: 40px;
+   padding: 16px;
+   padding-left: 1px;
+   padding-top: 10px;
+   margin-bottom: 10px;
+   text-align: center;
+   display: inline-block;
+ }
+
+ /* Quando o mouse passa em cima */
+ .caixa-roraima:hover {
+   background-color: #a5bef4;
+   color: #000;
+ }
+
+ /* configuração das caixas */
+ .caixa-goia {
+   background-color: #fff;
+   color: #000;
+   border-radius: 12px;
+   width: 335px;
+   height: 550px;
+   margin-right: 40px;
+   padding: 16px;
+   padding-left: 1px;
+   padding-top: 10px;
+   margin-top: 10px;
+   text-align: center;
+   display: inline-block;
+ }
+
+ /* Quando o mouse passa em cima */
+ .caixa-goia:hover {
+   background-color: #a5bef4;
+   color: #000;
+ }
+
+ /* configuração das caixas */
+ .caixa-belem {
+   background-color: #fff;
+   color: #000;
+   border-radius: 12px;
+   width: 335px;
+   height: 550px;
+   margin-right: 40px;
+   padding: 16px;
+   padding-left: 1px;
+   padding-top: 10px;
+   margin-top: 10px;
+   text-align: center;
+   display: inline-block;
+ }
+
+ /* Quando o mouse passa em cima */
+ .caixa-belem:hover {
+   background-color: #a5bef4;
+   color: #000;
+ }
+
+ /* configuração das caixas */
+ .caixa-gramado {
+   background-color: #fff;
+   color: #000;
+   border-radius: 12px;
+   width: 335px;
+   height: 550px;
+   margin-right: 40px;
+   padding: 16px;
+   padding-left: 1px;
+   padding-top: 10px;
+   margin-top: 10px;
+   text-align: center;
+   display: inline-block;
+ }
+
+ /* Quando o mouse passa em cima */
+ .caixa-gramado:hover {
+   background-color: #a5bef4;
+   color: #000;
+ }
+
+ footer {
+   background-color: #0a0a23;
+   /* azul escuro elegante */
+   color: #ffffff;
+   padding: 40px 20px;
+   text-align: center;
+   font-family: Arial, sans-serif;
+ }
+
+ footer h2 {
+   color: #f2c94c;
+   /* amarelo dourado para destaque */
+   margin-top: 25px;
+   margin-bottom: 10px;
+   font-size: 20px;
+ }
+
+ footer p,
+ footer li,
+ footer a {
+   color: #dcdcdc;
+   font-size: 15px;
+   text-decoration: none;
+ }
+
+ footer ul {
+   list-style: none;
+   padding: 0;
+   margin: 0 auto 20px;
+ }
+
+ footer ul li {
+   margin: 5px 0;
+ }
+
+ footer a:hover {
+   color: #f2c94c;
+   text-decoration: underline;
+ }
+
+ footer img {
+   vertical-align: middle;
+   margin: 10px;
+ }
+
+ footer .footer-container {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   gap: 30px;
+   max-width: 1000px;
+   margin: 0 auto;
+   text-align: left;
+ }
+
+ footer hr {
+   border: none;
+   border-top: 1px solid #444;
+   margin: 30px 0;
+ }
+
+ footer .copy {
+   font-size: 13px;
+   color: #aaaaaa;
+ }
+
+ /* ícones App Store e Google Play */
+ footer .apps img {
+   width: 130px;
+   margin: 10px;
+   transition: 0.3s;
+ }
+
+ footer .apps img:hover {
+   transform: scale(1.05);
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+   width: 100px;
+   /* ajusta o tamanho da imagem completa */
+   height: auto;
+   transition: 0.9s;
+   border-radius: 10px;
+   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+   cursor: pointer;
+ }
+
+  /* Telas até 1024px (tablets e notebooks pequenos) */
+@media (max-width: 1024px) {
+  .banner {
+    width: 90%;
+    margin: 20px auto;
+    height: auto;
+    font-size: 120%;
+  }
+
+  .container,
+  .container-vip {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .caixa1,
+  .bus-info,
+  .bus-vip {
+    width: 90%;
+    height: auto;
+  }
+
+  .caixa1,
+  .bus-vip {
+    margin-bottom: 20px;
+  }
+
+  .Passagens {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .caixa-belo,
+  .caixa-forta,
+  .caixa-maceio,
+  .caixa-recife,
+  .caixa-rio,
+  .caixa-sao,
+  .caixa-curi,
+  .caixa-am,
+  .caixa-roraima,
+  .caixa-goia,
+  .caixa-belem,
+  .caixa-gramado {
+    width: 45%;
+    margin: 10px;
+  }
+
+  footer .footer-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    text-align: center;
+  }
+}
+
+/* Telas até 600px (celulares) */
+@media (max-width: 600px) {
+  header {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .logo {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+    font-size: 16px;
+  }
+
+  .banner {
+    font-size: 100%;
+    padding: 10px;
+  }
+
+  .container,
+  .container-vip {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+
+  .caixa1,
+  .bus-info,
+  .bus-vip {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+  }
+
+  .caixa-belo,
+  .caixa-forta,
+  .caixa-maceio,
+  .caixa-recife,
+  .caixa-rio,
+  .caixa-sao,
+  .caixa-curi,
+  .caixa-am,
+  .caixa-roraima,
+  .caixa-goia,
+  .caixa-belem,
+  .caixa-gramado {
+    width: 90%;
+    margin: 10px auto;
+    display: block;
+  }
+
+  footer .footer-container {
+    grid-template-columns: 1fr;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  footer img {
+    margin: 10px auto;
+  }
+}
+
+ 

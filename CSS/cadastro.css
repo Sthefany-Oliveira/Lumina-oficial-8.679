@@ -1,0 +1,216 @@
+    * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+    }
+
+    body {
+        display: flex;
+        /* serve para mecher na nossa caixa, colocando o diplay no body */
+        justify-content: center;
+        /* meche no eixo principal horizontal */
+        align-items: center;
+        /* deixa no centro da pagina transversal */
+        min-height: 100vh;
+        /* muda o lugar que quer deixar, altura minima que tem que ter */
+        background-image: url(../imagens/cadastro-plano-de-fundo.jpg);
+        background-size: cover;
+        /* pegar a imagem e adaptar pro tamanho do background */
+        background-position: center;
+        /* imagem ficar centralizada */
+
+    }
+
+    .container {
+        width: 420px;
+        background-color: transparent;
+        border: 2px solid rgba(255, 255, 255, .2);
+        border-radius: 10px;
+        color: #fff;
+        padding: 30px 40px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+        /* sombra na caixa */
+        backdrop-filter: blur(10px);
+
+
+    }
+
+    h1 {
+        font-size: 1.8em;
+        /* valoer relacionado ao valor do elemento */
+        text-align: center;
+
+    }
+
+    .container h2 {
+        text-align: center;
+        color: #4fa4ea;
+        padding-bottom: 20px;
+
+    }
+
+    .caixa-botao {
+        position: relative;
+        /* muda a posição do elemento de acordo com a minha nessecidade */
+        width: 100%;
+        /* ele ocupa o tamanho da caixa que é o container */
+        height: 50px;
+        /* defina a altura do  elemento */
+        margin: 30px 0;
+
+
+    }
+
+    .caixa-botao input {
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        border: 2px solid;
+        border-radius: 10px;
+        outline: none;
+        color: #f4eded;
+        padding: 20px 45px 20px 20px;
+    }
+
+    .caixa-botao input::placeholder {
+        color: #fff;
+
+    }
+
+    .caixa-botao i {
+        position: absolute;
+        /* define a posição que é absoluta */
+        right: 20px;
+        top: 65%;
+        font-size: 20px;
+    }
+
+
+
+    .cadastro2 {
+        width: 100%;
+        height: 50px;
+        background-color: #0c1296;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        font-weight: 600;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+        margin-top: 20px;
+        cursor: pointer;
+        font-size: 18px;
+
+    }
+
+    .cadastro2:hover {
+        background-color: transparent;
+        border: 2px solid;
+        color: #ffffff;
+        transition: 0.5s;
+    }
+
+    .cadastro {
+        font-size: 14px;
+        text-align: center;
+        margin: 20px 0 15px;
+    }
+
+    .cadastro a {
+        text-decoration: none;
+        color: #38a5e9;
+        font-weight: 600;
+    }
+
+    .cadastro a:hover {
+        /* sublinhamento do link */
+        text-decoration: underline;
+    }
+
+    .login {
+        background-color: #ffffff;
+        width: 100%;
+        height: 45px;
+        padding: 5px;
+        margin-top: 16px;
+
+    }
+
+    /* Tablets - até 1024px */
+@media (max-width: 1024px) {
+  .container {
+    width: 90%;
+    padding: 25px 30px;
+  }
+
+  .caixa-botao input {
+    padding: 15px 40px 15px 15px;
+    font-size: 16px;
+  }
+
+  .caixa-botao i {
+    font-size: 18px;
+    top: 60%;
+    right: 15px;
+  }
+
+  .cadastro2 {
+    font-size: 16px;
+    height: 48px;
+  }
+
+  h1 {
+    font-size: 1.6em;
+  }
+
+  .container h2 {
+    font-size: 1.4em;
+    padding-bottom: 15px;
+  }
+}
+
+/* Celulares - até 480px */
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
+
+  .container {
+    width: 100%;
+    padding: 20px 20px;
+    box-shadow: none;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+  h1 {
+    font-size: 1.4em;
+  }
+
+  .container h2 {
+    font-size: 1.2em;
+    padding-bottom: 10px;
+  }
+
+  .caixa-botao input {
+    padding: 12px 35px 12px 12px;
+    font-size: 14px;
+  }
+
+  .caixa-botao i {
+    font-size: 16px;
+    top: 55%;
+    right: 12px;
+  }
+
+  .cadastro2 {
+    font-size: 15px;
+    height: 45px;
+  }
+
+  .cadastro {
+    font-size: 13px;
+  }
+}
