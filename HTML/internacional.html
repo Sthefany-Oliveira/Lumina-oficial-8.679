@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Internacional</title>
   <link rel="stylesheet" href="../CSS/stylepasagens.css">
+  <link rel="icon" href="../imagens/plane_takeoff_3577.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -26,8 +27,8 @@
     <br>
     <br>
     <div class="banner">
-      <h1>Para onde você quer ir?</h1>
-      <form action="" method="post">
+      <h1 id="paraonde">Para onde você quer ir?</h1>
+      <form action="" method="post" id="formvoo">
         <p>
           <label for="origem_id">De:</label>
           <input type="text" name="origem" id="origem_id" placeholder="Insira uma origem">
@@ -43,7 +44,7 @@
             <option value="somente-ida">Somente ida</option>
           </select>
         </p>
-        <input type="submit" value="Pesquisar">
+        <button class="botao">Pesquisar</button>
       </form>
     </div>
     <br>
@@ -134,8 +135,8 @@
 
   </main>
   <br>
-<br>
-<hr>
+  <br>
+  <hr>
   <footer>
     <h2>Formas de Pagamento</h2>
     <p>

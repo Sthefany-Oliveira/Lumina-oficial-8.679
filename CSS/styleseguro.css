@@ -69,12 +69,10 @@
 
  .listando {
      border-radius: 10px;
-     width: 1350px;
+     width: 90%;
      height: 200px;
-     padding-right: 15px;
-     padding-top: 15px;
+     padding: 1%;
      margin-left: 60px;
-
      background-color: #252568;
      font-family: Georgia, 'Times New Roman', Times, serif;
      font-weight: 200;
@@ -85,11 +83,9 @@
 
  .listand {
      border-radius: 10px;
-     width: 1340px;
+     width: 90%;
      height: 350px;
-     padding-right: 15px;
-     padding-top: 15px;
-     padding-left: 15px;
+     padding: 1%;
      margin-left: 60px;
      background-color: #252568;
      font-family: Georgia, 'Times New Roman', Times, serif;

@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vida Noturna</title>
   <link rel="stylesheet" href="../CSS/stylepasagens.css">
+  <link rel="icon" href="../imagens/plane_takeoff_3577.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -13,12 +14,9 @@
     <span class="logo">Sirius Concorde</span>
     <nav>
       <a href="../index.html">Pagina Inicial</a>
-      <a href="./carros.html">Carros</a>
-      <a href="./Ônibus.html">ônibus</a>
-      <a href="./hospedagem.html">Hospedagem</a>
       <a href="./clube.html">Clube👑</a>
+      <a href="../HTML/contato.html">Contato</a>
       <a href="./Seguro.html">Seguro Viagem</a>
-
       <a href="./login.html" class="btn">Login</a>
       <a href="./cadastro.html" class="btn">Cadastre-se</a>
     </nav>
@@ -28,8 +26,8 @@
     <br>
     <br>
     <div class="banner">
-      <h1>Para onde você quer ir?</h1>
-      <form action="" method="post">
+      <h1 id="paraonde">Para onde você quer ir?</h1>
+      <form action="" method="post" id="formvoo">
         <p>
           <label for="origem_id">De:</label>
           <input type="text" name="origem" id="origem_id" placeholder="Insira uma origem">
@@ -45,7 +43,7 @@
             <option value="somente-ida">Somente ida</option>
           </select>
         </p>
-        <input type="submit" value="Pesquisar">
+        <button class="botao">Pesquisar</button>
       </form>
     </div>
     <br>
