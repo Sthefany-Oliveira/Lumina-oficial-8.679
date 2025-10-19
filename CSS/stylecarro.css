@@ -72,7 +72,6 @@ p {
     font-size: 20px;
 }
 
-h1,
 h2,
 h3 {
     color: aliceblue;
@@ -81,6 +80,12 @@ h3 {
 h4 {
     color: white;
     font-size: 2em;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 3em;
 }
 
 header {
@@ -130,11 +135,6 @@ nav a:hover {
     color: white;
 }
 
-h1 {
-    border: 8px rgb(194, 203, 255) solid;
-    border-radius: 12px;
-    width: 300px;
-}
 
 .suv {
     background-color: #625db7;
@@ -164,10 +164,24 @@ span {
     margin-right: 40px;
 }
 
+.botão1 {
+    background-color: rgb(183, 95, 217);
+    border-radius: 9px;
+    width: 100px;
+    height: 30px;
+}
+
+.botão {
+    background-color: rgb(124, 171, 246);
+    border-radius: 9px;
+    width: 100px;
+    height: 30px;
+}
+
 .caixa-formulario-carro {
     border-radius: 40px;
     width: 900px;
-    height: 400px;
+    height: 300px;
     margin-left: 290px;
     margin-right: 900px;
     background-color: #8e5ebf;

@@ -433,7 +433,8 @@ footer .apps img:hover {
 }
 
 /* tablet */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
+
   header {
     width: 100%;
     text-align: center;
@@ -521,7 +522,7 @@ footer .apps img:hover {
 }
 
 /* celular */
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .topo {
     height: 200px;
   }

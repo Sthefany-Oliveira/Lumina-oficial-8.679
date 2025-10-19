@@ -1,0 +1,126 @@
+/* ======================= RESET BÁSICO ======================= */
+/* Remove margens e paddings padrão de todos os elementos e define box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Inclui padding e border na largura total do elemento */
+}
+
+/* ======================= ESTILO GERAL ======================= */
+body {
+  font-family: Arial, sans-serif; /* Fonte principal da página */
+  line-height: 1.6;               /* Espaçamento entre linhas para melhor leitura */
+  color: #111;                     /* Cor do texto */
+  background-color: #0a0a31;       /* Fundo da página */
+  padding: 20px;                   /* Espaçamento interno da página */
+}
+
+/* Container principal */
+main {
+  max-width: 960px;               /* Largura máxima do conteúdo */
+  margin: 0 auto;                 /* Centraliza horizontalmente */
+  background: #fff;               /* Fundo branco do container */
+  padding: 30px;                  /* Espaçamento interno */
+  border-radius: 10px;            /* Cantos arredondados */
+  border: 1px solid #e6e9ef;     /* Borda sutil */
+}
+
+/* ======================= CABEÇALHO ======================= */
+header h1 {
+  font-size: 28px;                /* Tamanho do título principal */
+  color: #0b67c2;                 /* Azul de destaque */
+  margin-bottom: 5px;             /* Espaço abaixo do título */
+}
+
+header h2 {
+  font-size: 18px;                /* Tamanho do subtítulo */
+  color: #555;                    /* Cinza escuro */
+  margin-bottom: 20px;            /* Espaço abaixo do subtítulo */
+}
+
+/* ======================= TÍTULOS ======================= */
+h3 { font-size: 20px; margin-top: 25px; color: #0b67c2; } /* Títulos de seção */
+h4 { font-size: 16px; margin-top: 20px; color: #0b67c2; } /* Subtítulos */
+h5 { font-size: 14px; margin-top: 15px; color: #0b67c2; } /* Títulos menores */
+
+/* ======================= PARÁGRAFOS E LISTAS ======================= */
+p { margin: 10px 0; } /* Espaçamento acima e abaixo do parágrafo */
+ul { margin: 10px 0 10px 20px; } /* Lista com recuo e espaçamento */
+
+/* ======================= TABELAS ======================= */
+table {
+  width: 100%;                     /* Ocupa toda a largura do container */
+  border-collapse: collapse;       /* Remove espaçamento entre células */
+  margin: 15px 0;                  /* Espaço acima e abaixo da tabela */
+}
+
+table, th, td {
+  border: 1px solid #e6e9ef;      /* Borda da tabela e células */
+}
+
+th, td {
+  padding: 10px;                   /* Espaçamento interno das células */
+  text-align: left;                /* Alinhamento do texto à esquerda */
+}
+
+th {
+  background-color: #f3f6fb;       /* Fundo azul claro no cabeçalho */
+  color: #0b67c2;                  /* Texto azul para destaque */
+}
+
+/* ======================= RODAPÉ ======================= */
+footer {
+  margin-top: 25px;                /* Espaço acima do rodapé */
+  border-top: 1px solid #e6e9ef;  /* Linha separadora */
+  padding-top: 15px;               /* Espaço interno no topo do rodapé */
+  font-size: 14px;                 /* Tamanho da fonte */
+  color: #555;                     /* Cor cinza */
+}
+
+/* ======================= LINKS ======================= */
+a { 
+  color: #0b67c2;                  /* Cor azul padrão */
+  text-decoration: none;           /* Remove sublinhado */
+}
+
+a:hover { 
+  text-decoration: underline;      /* Sublinhado ao passar o mouse */
+}
+
+/* ======================= MEDIA QUERIES ======================= */
+
+/* ------------------- CELULAR: até 600px ------------------- */
+@media (max-width: 600px) {
+  body { padding: 10px; }         /* Reduz padding da página */
+  main { padding: 20px; }         /* Reduz padding do container */
+  header h1 { font-size: 22px; }  /* Ajusta tamanho do título principal */
+  header h2 { font-size: 16px; }  /* Ajusta subtítulo */
+  h3 { font-size: 18px; }         /* Ajusta títulos de seção */
+  h4 { font-size: 14px; }         /* Ajusta subtítulos */
+  h5 { font-size: 13px; }         /* Ajusta títulos menores */
+  table, th, td { font-size: 12px; } /* Reduz fonte da tabela */
+}
+
+/* ------------------- TABLET: 601px a 1024px ------------------- */
+@media (min-width: 601px) and (max-width: 1024px) {
+  body { padding: 15px; }         /* Ajusta padding para tablet */
+  main { padding: 25px; }         /* Ajusta padding do container */
+  header h1 { font-size: 24px; }  /* Título principal intermediário */
+  header h2 { font-size: 17px; }  /* Subtítulo intermediário */
+  h3 { font-size: 19px; }         /* Título de seção */
+  h4 { font-size: 15px; }         /* Subtítulo */
+  h5 { font-size: 13px; }         /* Título menor */
+  table, th, td { font-size: 13px; } /* Ajusta tabela */
+}
+
+/* ------------------- DESKTOP: acima de 1024px ------------------- */
+@media (min-width: 1025px) {
+  body { padding: 20px; }         /* Padding padrão */
+  main { padding: 30px; }         /* Padding do container padrão */
+  header h1 { font-size: 28px; }  /* Tamanho do título principal */
+  header h2 { font-size: 18px; }  /* Subtítulo */
+  h3 { font-size: 20px; }         /* Título de seção */
+  h4 { font-size: 16px; }         /* Subtítulo */
+  h5 { font-size: 14px; }         /* Título menor */
+  table, th, td { font-size: 14px; } /* Fonte da tabela padrão */
+}
